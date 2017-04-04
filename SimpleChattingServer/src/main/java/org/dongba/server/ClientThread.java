@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.dongba.model.ChatMessage;
 import org.dongba.service.ServerChatService;
 
-public class ClientThread extends Thread {
+public class ClientThread extends Thread { 
 	
 	private String name;
 	private ObjectInputStream inputStream;
